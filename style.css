@@ -1,0 +1,698 @@
+@font-face {
+    font-family: poppins;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: type;
+  src: url(Fonts/JMH\ Typewriter.ttf);
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: poppins;
+    margin-left: -0;
+   margin-right: -0;
+    overflow-x: hidden;
+    margin-top: -0;
+    height: 100vh;
+    overflow: hidden;
+}
+.fade {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    
+    }
+    
+    .home_fade {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    animation: fade 25s infinite forwards;
+    }
+    
+    .home_fade:nth-child(1) { 
+      background-image: url(images/trees.jpg);
+     /* background-position: 5%; */
+     background-size: 100vw  100vh;
+     background-repeat: no-repeat;
+     animation-delay: 0s; 
+    }
+    .home_fade:nth-child(2) { 
+      background-image: url(images/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg);
+      animation-delay: 5s; 
+      background-size: 100vw  100vh;
+      background-repeat: no-repeat;
+    }
+    .home_fade:nth-child(3) { 
+      background-image: url(images/steak.jpg);
+      animation-delay: 10s;
+      background-size: 100vw  100vh;
+      background-repeat: no-repeat; 
+    }
+    .home_fade:nth-child(4) { 
+      background-image: url(images/drink.jpg);
+      animation-delay: 15s;
+      background-size: 100vw  100vh;
+      background-repeat: no-repeat;
+     }
+    .home_fade:nth-child(5) { 
+      background-image: url(images/ingredients.jpg);
+      animation-delay: 20s; 
+      background-size: 100vw  100vh;
+      background-repeat: no-repeat;
+    }
+
+      @keyframes fade {
+        0% { 
+          opacity: 0; 
+        }
+        10% { 
+          opacity: 1; 
+        }
+        20% { 
+          opacity: 1;
+         }
+        30% { 
+          opacity: 0; 
+        }
+        100% { 
+          opacity: 0;
+         }
+        }
+    
+    .text{
+        font-family: poppins;
+      position: absolute;
+      overflow: visible;
+      color: rgba(83, 83, 83, 0.61);
+      font-size: 400%;
+      margin-left: 35%;
+      
+    }
+      #logo{
+        width: 8%;
+        margin-left: 48%;
+        position: relative;
+        top: 15%;
+        margin-top: 15%;
+
+      }
+      #taste{
+        margin-left: 10%;
+      }
+      a{
+        text-decoration: none;
+        color:white
+      }
+     .buttons{
+        display: flex;
+        position: relative;
+        margin-left: 28%;
+        gap: 3%;
+        margin-top: -6.5%;
+        border: none;
+        background-color: black;
+        border-radius: 60px;
+        color: white;
+        padding: 1.5%;
+        width: 40%;
+     }
+     .reservation{
+        position: relative;
+        border: none;
+        background-color: grey;
+        padding: 1.5%;
+        margin-top: -1.5%;
+        border-radius: 30px;
+
+     }
+     .reservation :hover{
+      margin-left: -1vw;
+      background-color: white;
+      padding:25% 15%;
+        border-radius: 30px;
+        color: black;
+       
+     }
+     .socials{
+        position: relative;
+        margin-top: -43%;
+        gap: 5%;
+        margin-left: 60%;
+     }
+     #instagram{
+        position: relative;
+        overflow: visible;
+       top: 100%;
+        left: 80%;
+        border: solid white 0.5px;
+        padding: 0.5%;
+        border-radius: 50px;
+     }
+     #facebook{
+        position: relative;
+        overflow: visible;
+        top: 100%;
+        left: 80%;
+        border: solid white 0.5px;
+        padding: 0.5%;
+        border-radius: 50px;
+     }
+     #whatsapp{
+        position: relative;
+        margin-top: 35%;
+        left: 93%;
+        border: solid white 2px;
+        background-color: white;
+        border-radius: 50px;
+
+     }
+     #home{
+        border: none;
+        background-color: rgba(128, 128, 128, 0.253);
+        padding: 1.5%;
+        margin-top: -2%;
+     }
+
+.dropup {
+    position: relative;
+    display: inline-block;
+  }
+     .dropup-content{
+        position: absolute;
+        color: black;
+        border: none;
+        background-color: white;
+        padding-left: 100%;
+        width: 900%;
+        border-radius: 20px;
+        z-index: 1;
+        display: none;
+        top: -1000%;
+    
+     }
+     .dropup:hover .dropup-content {
+        display: block;
+      }
+      
+
+    /* //menu.css */
+    .container{
+        display: flex;
+    }
+    .kitisuru img{
+        width: 50vw;
+        height: 100vh;
+        position: relative;
+        z-index: -1;
+    }
+    .kilimani img{
+        width: 50vw;
+        height: 100vh;
+        position: relative;
+        z-index: -1;
+    }
+    .branch{
+        position: absolute;
+        overflow: visible;
+        z-index: 1;
+        color: white;
+        top:35vh;
+        left:20vw;
+        line-height:2vh ;
+    }
+    h5{
+        color: red;
+        font-size: 200%;
+        transition: 1s ease-out;
+    }
+#branch_text{
+    font-size: 400%;
+  
+}
+.branch_two{
+    position: absolute;
+        overflow: visible;
+        z-index: 1;
+        color: white;
+        top:35vh;
+        left:60vw;
+        line-height:2vh ;
+}
+#logo_two{
+    position: absolute;
+    margin-left: -7.5vw;
+    width: 15%;
+}
+
+
+/* //menu_tem */
+
+.menu_items{
+  display: flex;
+  font-family: type;
+  overflow: hidden;
+  
+ 
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.scarf img{
+  width: 50vw;
+  height: 100vh;
+  position: relative;
+  
+}
+.food{
+  width: 50vw;
+  height:100vh;
+  background-color: black;
+  color: white;
+  overflow: scroll;
+}
+.top_buttons{
+  border: none ;
+  background-color: black;
+  position: relative;
+  position: fixed;
+  display: flex;
+  margin-left: 10vw;
+  gap: 80%;
+  margin-top: 5vh;
+}
+.top_buttons :hover{
+  color: yellow;
+}
+
+#breakfast{
+  position: relative;
+  margin-top: 15vh;
+  margin-left: 5vw;
+}
+#coffee{
+  font-size: 150%;
+}
+.breakfast_selection{
+  display: flex;
+  margin-left: 5vw;
+  gap: 25vw;
+}
+.image_text{
+  display: block;
+ 
+}
+.the_icon{
+  display: flex;
+  gap:3vw;
+  margin-left: 5vw;
+}
+.the_icon img{
+  display: block;
+  width: 7%;
+}
+.price3{
+  margin-left:16vw ;
+}
+.price1{
+  margin-left: 1vw;
+}
+.price5{
+  margin-left: 15vw;
+}
+.price6{
+  margin-left:11vw;
+}
+.price7{
+  margin-left: 5vw;
+}
+.price8{
+  margin-left: 7vw;
+}
+#food1{
+  margin-top: 2wh;
+}
+.soup{
+  margin-left: 5vw;
+  margin-top: 10vh;
+}
+.food_selection{
+  display: flex;
+  margin-left: 5vw;
+  gap:20vw
+}
+#drink{
+  margin-left: 5vw;
+  display: flex;
+  gap:30vw
+}
+.logo_one{
+  margin-top: -20vh;
+  position: relative;
+  
+}
+.logo_one img{
+  position: relative;
+  margin-top: -180vh;
+  width: 20%;
+  left: 20vw;
+}
+.menu_kitisuru{
+  position: relative;
+  margin-top: -30vh;
+  font-size: 150%;
+  left: 0;
+  text-align: center;
+  line-height: 0vh;
+}
+#menu_k{
+  color: white;
+}
+#buttons{
+  display: flex;
+  position: relative;
+  margin-left: 20%;
+  gap: 3%;
+  margin-top: -6.5%;
+  border: none;
+  background-color: black;
+  border-radius: 60px;
+  color: white;
+  padding: 1.5%;
+  width: 70%;
+}
+#buttons_one{
+  display: flex;
+  position: relative;
+  margin-left: 20%;
+  gap: 3%;
+  margin-top: -6.5%;
+  border: none;
+  background-color: black;
+  border-radius: 60px;
+  color: white;
+  padding: 1.5%;
+  width: 70%;
+}
+#dot{
+  position: absolute;
+  margin-top: -41.5%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 102.6vw;
+  height:185.5vh;
+  text-align: center;
+  margin-left: -2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+      @media only screen and (max-width:430px){
+    body{
+        position: fixed;
+       
+     }
+    .text{
+        font-size: 100%;
+    }
+    .buttons{
+      flex-direction: column;
+      margin-top: -28vh;
+      background-color: rgba(0, 0, 0, 0.11);
+      color:black;
+    
+    }
+    .home_fade:nth-child(1) {   
+       background-size: 100vw  100vh;
+      }
+      .home_fade:nth-child(2) { 
+        background-size: 100vw  100vh;
+      }
+      .home_fade:nth-child(3) { 
+        background-size: 100vw  100vh; 
+      }
+      .home_fade:nth-child(4) { 
+        background-size: 100vw  100vh;
+       }
+      .home_fade:nth-child(5) { 
+        background-size: 100vw  100vh;
+      }
+      .socials{
+        flex-direction: column;
+        margin-top: -85vh;
+        left: 18vw;
+      }
+      #instagram{
+        left: 0;
+     }
+     #facebook{
+       
+     left: 0;
+     }
+     #whatsapp{
+        left: 85vw;
+margin-top: 70vh;
+     }
+     /* //menu */
+     #branch_text{
+      font-size: 200%;
+     
+  }
+  .branch{
+   
+    top:8vh;
+    left:28vw
+}
+.branch_two{
+
+      top:49vh;
+      left:28vw;
+}
+.container{
+  display: block;
+}
+.kitisuru img{
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  z-index: -1;
+}
+.kilimani img{
+  width: 100vw;
+  height: 50vh;
+ position: relative;
+ margin-top: -2%;
+}
+#logo_two{
+  top:45vh;
+  left: 50vw;
+}
+#dot{
+  height: 140vh;
+}
+
+/* //menu_items */
+
+.top_buttons{
+  gap:8vw;
+}
+.menu_items{
+  display: block;
+}
+.scarf img{
+  width: 100vw;
+  height:68vh
+}
+.food{
+  width: 100vw;
+}
+.logo_one img{
+  position: relative;
+  margin-top: -180vh;
+  width: 25%;
+  left: 40vw;
+}
+.logo_one{
+  margin-top: -20vh;
+  position: relative;
+  
+}
+#buttons_one{
+gap: 1vw;
+margin-left: 0;
+width: 92vw;
+}
+.reservation_one{
+  display: none;
+}
+.item{
+  line-height: 5vh;
+}
+
+}
+      
+      @media only screen and (min-width:431px) and (max-width:820px) {
+        body{
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .buttons{
+            padding: 2% ;
+            gap: 2%;
+            margin-left: 2%;
+            width: 80%;
+            margin-top: -10%;
+          }
+          .socials{
+            margin-top: -90vh;
+            left: 25vw;
+          }
+          #instagram{
+            left: 0;
+         }
+         #facebook{
+         left: 0;
+         }
+         #whatsapp{
+            left: 90vw;
+        margin-top: 75vh;
+         }
+         .text{
+            font-size: 200%;
+         }
+         .home_fade:nth-child(1) {   
+            background-size: 100vw  100vh;
+           }
+           .home_fade:nth-child(2) { 
+             background-size: 100vw  100vh;
+           }
+           .home_fade:nth-child(3) { 
+             background-size: 100vw  100vh; 
+           }
+           .home_fade:nth-child(4) { 
+             background-size: 100vw  100vh;
+            }
+           .home_fade:nth-child(5) { 
+             background-size: 100vw  100vh;
+           }
+           .container{
+            flex-direction: column;
+           }
+           .kitisuru img{
+            width: 100vw;
+            height: 50vh;
+           }
+           .kilimani img{
+            width: 100vw;
+            height: 50vh;
+            margin-top: -1vh;
+           }
+           .branch{
+margin-top: -10vh;
+margin-left: 20vw;
+           }
+           .branch_two{
+            margin-top: 18vh;
+            margin-left: -20vw;
+           }
+           #dot{
+            height: 140vh;
+          }
+           /* //menu_items */
+
+
+.menu_items{
+  flex-direction: column;
+}
+.scarf img{
+  width: 101.8vw;
+  height:68vh;
+}
+
+.logo_one img{
+  position: relative;
+  margin-top: -180vh;
+  width: 25%;
+  left: 40vw;
+}
+.logo_one{
+  margin-top: -20vh;
+  position: relative;
+  
+}
+.food{
+  width: 101.8vw;
+  height:50vh;
+}
+.top_buttons{
+  width: 80vw;
+  gap:25vw
+}
+#buttons_one{
+  width: 80vw;
+  margin-left: 10vw;
+}
+}
+      
+           
+        
+      @media only screen and (min-width:821px) and (max-width:1280px){
+        body{
+          overflow: hidden;
+          width:100vw;
+          height: 100vh;
+        }
+        #whatsapp{
+          margin-top: 30VW;
+        }
+        .home_fade:nth-child(1) {   
+          background-size: 100vw  100vh;
+         }
+         .home_fade:nth-child(2) { 
+           background-size: 100vw  100vh;
+         }
+         .home_fade:nth-child(3) { 
+           background-size: 100vw  100vh; 
+         }
+         .home_fade:nth-child(4) { 
+           background-size: 100vw  100vh;
+          }
+         .home_fade:nth-child(5) { 
+           background-size: 100vw  100vh;
+         }
+       .buttons{
+        margin-top: -8vw;
+       width: 65vw;
+       margin-left: 10vw;
+       }
+       .text{
+        font-size: 350%;
+        margin-left: 30vw;
+       }
+       .scarf{
+        width:50vw
+       }
+       .food{
+        width: 100vw;
+       }
+       #buttons_one{
+        margin-left: 2vw;
+        width: 40vw;
+       }
+       .reservation_one{
+        display: none;
+       }
+      }

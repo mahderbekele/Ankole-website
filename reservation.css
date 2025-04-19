@@ -1,0 +1,266 @@
+@font-face {
+  font-family: type;
+  src: url(JMH\ Typewriter.ttf);
+}
+body {
+  margin: -0;
+  overflow: hidden;
+}
+
+.reservation_one{
+  display: flex;
+}
+
+.image_one img {
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.text_form {
+  overflow-y: scroll;
+  width: 50vw;
+  height: 100vh;
+  background-color: black;
+
+
+}
+
+form {
+  border: none;
+  padding: 2% 2% 6%;
+  margin: 5vw 5vh;
+  color: white;
+  font-size: 100%;
+  box-shadow: 5px 5px 10px -8px rgb(173, 171, 171);
+
+
+}
+
+form input {
+  background-color: black;
+  border: solid 1px;
+  color: white;
+  width: 40vw;
+  height: 6vh;
+  color-scheme: dark;
+}
+
+select {
+  width: 40.2vw;
+  height: 6vh;
+  background-color: black;
+  color: white;
+}
+
+button {
+  width: 40vw;
+  height: 6vh;
+  background-color: rgb(224, 200, 176);
+  border-radius: 10px;
+}
+
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+.buttons{
+  display: flex;
+  position: relative;
+  margin-left: 10%;
+  gap: 3%;
+  margin-top: -6.5%;
+  border: none;
+  background-color: black;
+  border-radius: 60px;
+  color: white;
+  padding: 1.5%;
+  width: 40%;
+}
+.reservation{
+  position: relative;
+  border: none;
+  background-color: grey;
+  padding: 1.5%;
+  margin-top: -1.5%;
+  border-radius: 30px;
+
+}
+.reservation :hover{
+  margin-left: -1vw;
+    background-color: white;
+    padding:25% 25%;
+  border-radius: 30px;
+  color: black;
+ 
+}
+
+.dropup-content {
+  position: absolute;
+  color: black;
+  border: none;
+  background-color: white;
+  padding-left: 100%;
+  width: 900%;
+  border-radius: 20px;
+  z-index: 1;
+  display: none;
+  top: -1000%;
+
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.reservation_text{
+  position: relative;
+  overflow: visible;
+  text-align: center;
+  margin-top: -50vh;
+  z-index: 1;
+  color: white;
+  line-height: 0vh;
+  font-family: type;
+
+}
+h5{
+  color: red;
+  font-size: 300%;
+}
+#logo_two{
+  position: absolute;
+  margin-left: -3vw;
+  width: 15%;
+  margin-top: -65vh;
+}
+#whatsapp{
+  position: relative;
+  top: -5vw;
+  left: 93%;
+  border: solid white 2px;
+  background-color: white;
+  border-radius: 50px;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:430px) {
+  .reservation_one{
+    flex-direction: column;
+  }
+  .image_one img{
+    width: 100vw;
+    height: 50vh;
+  }
+  .text_form{
+    width: 100vw;
+    height: 60vh;
+    margin-top: -1vh;
+    
+  }
+  form{
+    padding: 0%;
+  
+  }
+  form input{
+    width:70vw;
+    height:4vh;
+  }
+  select{
+    width: 72vw;
+    height: 5vh;
+  }
+  button{
+    width: 72vw;
+    height: 5vh;
+  }
+  .buttons{
+    margin-top: -63vh;
+    margin-left: 0;
+    background-color: none;
+    gap: 2.5vw;
+  }
+  .reservation{
+    display: none;
+  }
+  .reservation_text{
+    position: relative;
+    margin-top: -25vh;
+  }
+  #logo_two{
+    position: absolute;
+    margin-left: -5vw;
+    width: 15%;
+    margin-top: -35vh;
+  }
+  #whatsapp{
+  top: -25vw;
+  margin-left: -4vw;
+  }
+}
+ 
+
+
+@media only screen and (min-width:431px) and (max-width:820px) {
+  .reservation_one{
+    flex-direction: column;
+  }
+  .image_one img{
+    width: 100vw;
+    height: 80vh;
+  }
+  .text_form{
+    width: 100vw;
+    height: 60vh;
+    margin-top: -1vh;
+    
+  }
+  form{
+    padding: 0%;
+  
+  }
+  form input{
+    width:80vw;
+    height:4vh;
+  }
+  select{
+    width: 80.2vw;
+    height: 5vh;
+  }
+  button{
+    width: 81vw;
+    height: 5vh;
+  }
+  .buttons{
+    margin-top: -63vh;
+    margin-left: 15vw;
+    background-color: none;
+    gap: 2.5vw;
+  }
+  #logo_two{
+  display: none;
+  }
+  #whatsapp{
+    margin-top: -4vw;
+    margin-left: -3vw;
+  }
+}
+
+@media only screen and (min-width:821px) and (max-width:1200px) {
+  form{
+    box-shadow: none;
+  }
+  .buttons{
+    background-color: none;
+  }
+}
