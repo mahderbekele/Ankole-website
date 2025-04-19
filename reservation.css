@@ -246,6 +246,7 @@ h5{
     margin-left: 15vw;
     background-color: none;
     gap: 2.5vw;
+    width:70vw;
   }
   #logo_two{
   display: none;

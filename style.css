@@ -624,9 +624,10 @@ margin-left: 20vw;
 
 .logo_one img{
   position: relative;
-  margin-top: -180vh;
+  margin-top: -200vh;
   width: 25%;
   left: 40vw;
+  top:-5vh
 }
 .logo_one{
   margin-top: -20vh;
@@ -644,6 +645,11 @@ margin-left: 20vw;
 #buttons_one{
   width: 80vw;
   margin-left: 10vw;
+}
+#logo_two{
+  margin-left: 40vw;
+  margin-top: -48vh;
+  width: 30%;
 }
 }
       
